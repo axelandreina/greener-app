@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: SolitoAppProps) {
         <title>Greener App</title>
         <meta
           name="description"
-          content="Expo + Next.js with Solito. By Fernando Rojo."
+          content="Greener App - Crypto Dashboard. By Axel Hurtado"
         />
         <link rel="icon" href="leaf-greener.png" />
       </Head>
