@@ -19,7 +19,7 @@ export function SignUpScreen() {
       password: ''
     },
   })
-  const onSubmit = (data) => console.log(data)
+  const onSubmit = (_data: any) => console.log(_data)
 
   return (
     <ScrollView>
