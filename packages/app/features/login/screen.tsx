@@ -19,7 +19,7 @@ export function LoginScreen() {
       password: '',
     },
   })
-  const onSubmit = (data) => console.log(data)
+  const onSubmit = (_data: any) => console.log(_data)
 
   return (
     <View sx={{ backgroundColor: '#17142a', height: '100%' }}>
