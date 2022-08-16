@@ -17,6 +17,9 @@ export function NavigationProvider({
             screens: {
               home: '',
               'user-detail': 'user/:id',
+              login: '/login',
+              signup: '/signup',
+              'coin-detail': 'coin/:code'
             },
           },
         }),

@@ -1,5 +1,5 @@
 {
-  "name": "solito-blank",
+  "name": "Greener",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -15,5 +15,8 @@
   "scripts": {
     "native": "cd apps/expo && expo start",
     "web": "cd apps/next && yarn next"
+  },
+  "dependencies": {
+    "react-hook-form": "^7.33.1"
   }
 }

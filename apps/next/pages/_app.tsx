@@ -8,12 +8,12 @@ function MyApp({ Component, pageProps }: SolitoAppProps) {
   return (
     <>
       <Head>
-        <title>Solito Example App</title>
+        <title>Greener App</title>
         <meta
           name="description"
           content="Expo + Next.js with Solito. By Fernando Rojo."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="leaf-greener.png" />
       </Head>
       <Provider>
         <Component {...pageProps} />
